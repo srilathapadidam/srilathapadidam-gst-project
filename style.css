@@ -1,0 +1,240 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:yellow;
+
+}
+.navbar .burger {
+    display:none
+}
+
+.menubar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./assets/wood1.jpeg");
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.img1{
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+}
+.menu-section{
+    display: flex;
+    gap: 30px;
+    font-size: 35px;
+}
+
+.img2{
+    width:200px;
+    height:200px;
+    border-radius: 300px;    
+    padding: 10px;
+}
+
+.NL{
+    text-align: center;
+    border-bottom: 5px solid rgb(240, 220, 2);
+    background-image: url("./assets/th\ \(3\).jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    background-size: cover;
+    opacity: 0.9;
+    height: 738px;
+}
+
+span{
+    display:block ;
+}
+
+.NL h1{
+    color:yellow;
+}
+
+.NL h2 {
+    color: rgb(246, 170, 7);
+}
+
+.NL h1, .NL h2{
+    padding: 20px 20px;
+    font-size: 50px;
+}
+
+.NL P {
+    font-size: 35PX;
+    color:yellow;
+}
+
+.section1 {
+    text-align: center;
+    border-bottom: 5px solid rgb(246, 83, 7);
+    background-image: url("./assets/th\ \(1\).jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 580px;
+    padding-top: 60px;
+}
+
+.section1 h1 {
+    color: rgb(94, 4, 110);
+    padding: 20px 20px;
+    font-size: 45px;
+}
+
+.section h3 {
+    padding: 10px 10px;
+}
+
+.row1, .row2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 40px;
+    color: rgb(246, 83, 7);
+    font-size: 30px;
+    align-items: center; 
+    padding-top: 50px;
+}
+.row2 {
+    padding-bottom: 20px;
+    color:rgb(99, 5, 85);
+}
+
+input {
+    border-radius: 25px;
+    height:35px;
+    width: 280px;
+    padding-left: 20px;
+}
+
+input:hover {
+    background-color: rgb(8, 100, 75);
+    color: white;
+}
+
+.section2 {
+    text-align: center;
+    border-bottom: 5px solid rgb(2, 112, 137);
+    background-image: url("./assets/wood.jpeg");
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    background-size: cover;
+    opacity: 0.9;
+    height: 830px;
+}
+
+.section2 h1 {
+    color: rgb(22, 153, 10);
+    padding: 20px 20px;
+    font-size: 45px;
+}
+
+.total-amount-card {
+    display: click;
+}
+
+.data-tags {
+    position:relative;
+    top: 10px;
+    left:50%;
+}
+
+.total-amount-card h3 {
+    position:relative;
+    top: 30px;
+    left:220px;
+}
+
+
+button{
+    padding: 10px;
+    border:solid 3px rgb(246, 83, 7);
+    background-color: rgb(0, 132, 255);
+    color: purple;
+    border-radius: 25px;
+    width:350px;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: green;
+    color: yellow;
+}
+
+#data{
+    background-image: url("./assets/th\ \(5\).jpg");
+    background-size: 500px;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 400px;
+    padding: 30px;
+    color: rgb(4, 82, 88);
+    padding-top: 80px;
+} 
+
+#data p{
+    font-size: 20px;   
+}
+
+#data h3{
+    font-size: 30px;
+    text-align:center; 
+}
+
+footer {
+    background-image: url("./assets/th\ \(2\).jpg");
+    background-size: cover;
+    height: 160px;
+    padding: 30px;
+}
+
+footer h3 {
+    font-size: 35px;
+    color: rgb(40, 12, 198);
+}
+
+footer a {
+    font-size: 25px;
+    color: rgb(16, 101, 5);
+}
+
+.CI {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    color: rgb(246, 83, 7);
+    font-size: 30px; 
+}
+
+.ftr {
+    display: flex;  
+    gap: 20px;   
+    justify-content: space-around;
+}
+
+.ftr .icons {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.icons img {
+    height:60px;
+    width:60px;
+    border-radius: 50px;
+}

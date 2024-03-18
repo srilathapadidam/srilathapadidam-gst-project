@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSTProject</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="navbar">
+        <div class="menubar">
+          <div class="menu-section">
+            <a href="#home" alt= "#">Home</a>
+            <a href="#about" alt="#">About</a>
+            <a href="#contact" alt="#">Contact</a>
+            <a href="#services" alt="#">Services</a>
+          </div>
+          <img
+            id="rotatingImage"
+            class="img1"
+            src="./assets/furniture.png"
+            alt="Rotating"
+            height="100px"
+            width="100px"
+          />
+        </div>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="NL">
+      <h1>NEW LOOK</h1>
+      <img
+        class="img2"
+        src="./assets/ftlogo.jpg"
+        alt=" sofa"/>
+      <h2>Explore Your Views</h2>
+      <p>Explore NEW LOOK furniture is our latest Vision to Organize Your Place
+      <span></span>
+      with our exclusive offers and coupons</p>
+    </div>
+    <div class="section">
+      <div class="section1">
+        <h1>Customer Details</h1>
+        <div class="row1">
+          <div>
+            <label for="nameInput">Name:</label>
+            <input type="text" id="nameInput" />
+          </div>
+          <div>
+            <label for="emailInput">E-mail:</label>
+            <input type="email" id="emailInput" />
+          </div>
+          <div>
+            <label for="mobileInput">Mobile:</label>
+            <input type="tel" id="mobileInput" />
+          </div>
+          <div>
+            <label for="placeInput">Place:</label>
+            <input type="text" id="placeInput" />
+          </div>
+        </div>
+      </div>
+      <div class="section2">
+        <h1>Ordered Items</h1>
+        <div class="row2">
+          <div>
+            <label for="wallCabin">Wall Cabin:</label>
+            <input type="number" id="wallCabin" />
+          </div>
+          <div>
+            <label for="besideTable">Beside Table:</label>
+            <input type="number" id="besideTable" />
+          </div>
+          <div>
+            <label for="bookCase">Book Case:</label>
+            <input type="number" id="bookCase" />
+          </div>
+          <div>
+            <label for="deskSpace">Desk Space:</label>
+            <input type="number" id="deskSpace" />
+          </div>
+          <div>
+            <label for="officeChair">Office Chair:</label>
+            <input type="number" id="officeChair" />
+          </div>
+          <div>
+            <label for="gstInput">GST% :</label>
+            <input type="number" id="gstInput" />
+          </div>
+          <button type="button" id="paymentBtn">PAYMENT</button>
+        </div>
+      </div>
+      <div id="data" class="total-amount-card">
+        <div class="data-tags">
+        <p id="resName"></p>
+        <p id="resMobile"></p>
+        <p id="resEmail"></p>
+        <p id="resPlace"></p>
+        </div>
+        <h3 id="totalAmount"></h3>
+        <h3 id="totalWithGst"></h3>
+      </div>
+    </div>
+    <footer>
+      <div class="ftr">
+        <img
+          src="./assets/furniture.png"
+          class="img1"
+          alt="img"/>
+        <div class="CI">
+          <div class="UP">
+            <h3>Contact Information</h3>
+            <a>Useful links</a><br />
+            <a>Policy</a>
+          </div>
+          <div class="GS">
+            <h3>General Information</h3>
+            <a>Shop by category</a><br />
+            <a>warranty</a>
+          </div>
+        </div>
+        <div class="icons">
+          <img src="./assets/gl.jpg" alt="#" class="img"/>
+          <img src="./assets/fb.jpg" alt="#" class="img"/>
+          <img src="./assets/gm.jpg" alt="#" class="img"/>
+          <img src="./assets/tr.jpg" alt="#" class="img"/>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
